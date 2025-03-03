@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics - Green Valley School</title>
+    <link rel="icon" type="image/x-icon" href="images/icons5/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+       
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>                  
+                <li><a href="admissions.html">Admissions</a></li> 
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="academics-hero">
+        <div class="hero-content">
+            <h2>Academic Support</h2>
+            <p>We're here to help you succeed. Let us know how we can assist you.</p>
+        </div>
+    </section>
+
+    <section class="academics-issue">
+        <h2>Report an Academic Issue</h2>
+        <form class="issue-form">
+            <div class="form-group">
+                <label for="subject">Select Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Choose a subject</option>
+                    <option value="math">Mathematics</option>
+                    <option value="science">Science</option>
+                    <option value="english">English</option>
+                    <option value="history">History</option>
+                    <option value="art">Arts</option>
+                    <option value="physical-education">Physical Education</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Your name</label>
+                <textarea id="name" name="name"  placeholder="What is your name?" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <textarea id="email" name="email" placeholder="Enter your email" required style="width: 70%; height: 50px;" required ></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="issue">What is the issue?</label>
+                <textarea id="issue" name="issue" rows="5" placeholder="Describe the issue you are facing..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Green Valley School. All rights reserved.</p>
+    </footer>
+</body>
+</html>

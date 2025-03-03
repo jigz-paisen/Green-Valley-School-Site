@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracurricular Activities - Green Valley School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+       
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>                  
+                <li><a href="admissions.html">Admissions</a></li> 
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="activities">
+        <h2>Extracurricular Activities</h2>
+        <div class="activity-grid">
+            <!-- Activity 1 -->
+            <div class="activity-card" onclick="openModal('sports')">
+                <img src="images/sports.jpg" alt="Sports">
+                <div class="activity-content">
+                    <h3>Sports</h3>
+                    <p>Join our sports teams and stay active!</p>
+                </div>
+            </div>
+
+            <!-- Activity 2 -->
+            <div class="activity-card" onclick="openModal('music')">
+                <img src="images/music.jpg" alt="Music">
+                <div class="activity-content">
+                    <h3>Music</h3>
+                    <p>Explore your musical talents with us.</p>
+                </div>
+            </div>
+
+            <!-- Activity 3 -->
+            <div class="activity-card" onclick="openModal('drama')">
+                <img src="images/drama.jpg" alt="Drama">
+                <div class="activity-content">
+                    <h3>Drama</h3>
+                    <p>Be part of our theater productions.</p>
+                </div>
+            </div>
+
+            <!-- Activity 4 -->
+            <div class="activity-card" onclick="openModal('art')">
+                <img src="images/art.jpg" alt="Art">
+                <div class="activity-content">
+                    <h3>Art</h3>
+                    <p>Unleash your creativity in our art club.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Activity Details -->
+    <div id="activityModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" src="" alt="Activity Image">
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Green Valley School. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - Green Valley School</title>
+    <link rel="icon" type="image/x-icon" href="images/icons6/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+       
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>                  
+                <li><a href="admissions.html">Admissions</a></li> 
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="news">
+        <h2>Latest News</h2>
+        <div class="news-grid">
+            <!-- News 1 -->
+            <div class="news-card" onclick="expandNews('news1')">
+                <img src="images/sport_news.jpg" alt="News 1">
+                <div class="news-preview">
+                    <h3>Annual Sports Day</h3>
+                    <p>Our annual sports day is coming up! Click to learn more.</p>
+                </div>
+                <div class="news-full" id="news1">
+                    <h3>Annual Sports Day</h3>
+                    <p>Join us on October 15th for our annual sports day. Students from all grades will participate in various events, including track and field, relay races, and more. Don't miss the fun!</p>
+                </div>
+            </div>
+
+            <!-- News 2 -->
+            <div class="news-card" onclick="expandNews('news2')">
+                <img src="images/art_news.jpg" alt="News 2">
+                <div class="news-preview">
+                    <h3>Art Exhibition</h3>
+                    <p>Our students' artwork will be on display. Click for details.</p>
+                </div>
+                <div class="news-full" id="news2">
+                    <h3>Art Exhibition</h3>
+                    <p>Visit our art exhibition on November 1st to see the incredible work of our talented students. The event will feature paintings, sculptures, and digital art.</p>
+                </div>
+            </div>
+
+            <!-- News 3 -->
+            <div class="news-card" onclick="expandNews('news3')">
+                <img src="images/science_news.jpg" alt="News 3">
+                <div class="news-preview">
+                    <h3>Science Fair</h3>
+                    <p>Explore innovative projects at our science fair. Click to read more.</p>
+                </div>
+                <div class="news-full" id="news3">
+                    <h3>Science Fair</h3>
+                    <p>Our annual science fair will take place on November 10th. Students will showcase their innovative projects, ranging from robotics to environmental science. Come and be inspired!</p>
+                </div>
+            </div>
+
+            <!-- News 4 -->
+            <div class="news-card" onclick="expandNews('news4')">
+                <img src="images/play_news.jpg" alt="News 4">
+                <div class="news-preview">
+                    <h3>School Play</h3>
+                    <p>Don't miss our upcoming school play. Click for more information.</p>
+                </div>
+                <div class="news-full" id="news4">
+                    <h3>School Play</h3>
+                    <p>Our drama club is proud to present "Romeo and Juliet" on December 5th. Tickets are available at the school office. Don't miss this amazing performance!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Green Valley School. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
